@@ -3,130 +3,197 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
-    <link rel="stylesheet" href="style.css">
-    <script defer src="script.js"></script>
+    <title>MSRTC Bus Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
+    <div class="min-h-screen bg-gray-50">
+        <!-- Header -->
+        <header class="header">
+            <nav class="nav">
+                <div class="logo">MSRTC Bus Services</div>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Online Services</a></li>
+                     
+                </ul>
+                <div class="profile-icon-container">
+                    <img src="https://files.oaiusercontent.com/file-s0QCTWYiBfpomELubHLrGe2H?se=2024-09-01T11%3A34%3A19Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dc4f8b856-bab3-4b25-855b-cad3cc170c80.webp&sig=bWxEjMOfAOdcAFx%2B7/Yx92ZhjVclRB27o5FnWVVCsl4%3D" alt="Profile Icon" class="profile-icon">
+                    <div class="dropdown-menu">
+                        <a href="#">Profile</a>
+                        <a href="#">Settings</a>
+                        <a href="#">Logout</a>
+                    </div>
+            </nav>
+        </header>
+        <div> 
+            <b> <h1>IDENTITY REQUEST</h1></b>
+         
+        </div>
     
 
-    <!-- Main Content -->
-    <div class="main-content">
-        <header>
-            <div class="header-left">
-                <span> Maharashtra State Road Transport Corporation</span>
+        
+        <!-- Unique Features Section -->
+        <section class="top-bar">
+            <div class="top-bar-field">Card ID</div>
+            <div class="top-bar-field">Name</div>
+            <div class="top-bar-field">Date of Birth</div>
+            <div class="top-bar-field">Address</div>
+            
+        </section>
+        
+        <section class="unique-features-section">
+            
+            <div class="features-container">
+                <div class="feature">
+                    <div class="feature-number">1</div>
+                    <div class="feature-details">
+                        <span class="id-number">123349894587</span>
+                        <span class="name">Sufiyan Khan AkhlaqAli Khan</span>
+                        <span class="dob">12/09/2004</span>
+                        <span class="location">Madina Nager Ardhapur</span>
+                    </div>
+                    <button class="feature-btn">View All</button>
+                </div>
+                <!-- Add more rows as needed -->
             </div>
-            <div class="header-right">
-                <span>UTC +3</span>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw0JfCLG0-cgSR4OxwJxYjDmaDNTFLzKYpNw&s" alt="Profile" class="profile-img">
-                 
-                 
-            </div>
-        </header>
+        </section>
+        
 
-        <!-- Filters and Table -->
-        <div class="content">
-            <h2>E-Pass Request</h2>
-           
-            <table>
-                <thead>
-                    <tr>
-                        <th>Students Names</th>
-                        <th>Address</th>
-                        <th>Contect Number</th>
-                        <th>Date Od Biarth</th>
-                        <th>ID Number</th>
-                        <th>Request Date </th>
-                        <th>Buss Staind</th>
-                        <th>View All Records</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Sufiyan Khan</td>
-                        <td>Madina Nager</td>
-                        <td>2345678756</td>
-                        <td>14.03.2004</td>
-                        <td>2534353423</td>
-                        <td>14.03.2020</td>
-                        <td>Ardhapur</td>
-                        <td><button>View All</button></td>
-                    </tr>
-                    <tr>
-                        <td>Sufiyan Khan</td>
-                        <td>Madina Nager</td>
-                        <td>2345678756</td>
-                        <td>14.03.2004</td>
-                        <td>2534353423</td>
-                        <td>14.03.2020</td>
-                        <td>Ardhapur</td>
-                        <td><button>View All</button></td>
-                    </tr>
-                    <tr>
-                        <td>Sufiyan Khan</td>
-                        <td>Madina Nager</td>
-                        <td>2345678756</td>
-                        <td>14.03.2004</td>
-                        <td>2534353423</td>
-                        <td>14.03.2020</td>
-                        <td>Ardhapur</td>
-                        <td><button>View All</button></td>
-                    </tr>
-                    <tr>
-                        <td>Sufiyan Khan</td>
-                        <td>Madina Nager</td>
-                        <td>2345678756</td>
-                        <td>14.03.2004</td>
-                        <td>2534353423</td>
-                        <td>14.03.2020</td>
-                        <td>Ardhapur</td>
-                        <td><button>View All</button></td>
-                    </tr>
-                    <tr>
-                        <td>Sufiyan Khan</td>
-                        <td>Madina Nager</td>
-                        <td>2345678756</td>
-                        <td>14.03.2004</td>
-                        <td>2534353423</td>
-                        <td>14.03.2020</td>
-                        <td>Ardhapur</td>
-                        <td><button>View All</button></td>
-                    </tr>
-                    <tr>
-                        <td>Sufiyan Khan</td>
-                        <td>Madina Nager</td>
-                        <td>2345678756</td>
-                        <td>14.03.2004</td>
-                        <td>2534353423</td>
-                        <td>14.03.2020</td>
-                        <td>Ardhapur</td>
-                        <td><button>View All</button></td>
-                    </tr>
-                    <tr>
-                        <td>Sufiyan Khan</td>
-                        <td>Madina Nager</td>
-                        <td>2345678756</td>
-                        <td>14.03.2004</td>
-                        <td>2534353423</td>
-                        <td>14.03.2020</td>
-                        <td>Ardhapur</td>
-                        <td><button>View All</button></td>
-                    </tr>
-                    <!-- Repeat for each row -->
-                </tbody>
-            </table>
-            <div class="pagination">
-                <button>&laquo;</button>
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button>4</button>
-                <button>5</button>
-                <button>...</button>
-                <button>16</button>
-                <button>&raquo;</button>
+
+
+
+
+
+
+        <section class="unique-features-section">
+          
+            <div class="features-container">
+                <div class="feature">
+                    <div class="feature-number">2</div>
+                    <div class="feature-details">
+                        <span class="id-number">123349894587</span>
+                        <span class="name">Sufiyan Khan AkhlaqAli Khan</span>
+                        <span class="dob">12/09/2004</span>
+                        <span class="location">Madina Nager Ardhapur</span>
+                    </div>
+                    <button class="feature-btn">View All</button>
+                </div>
+                 
+                <!-- Add more rows as needed -->
             </div>
-        </div>
+        </section>>
+
+
+        <section class="unique-features-section">
+          
+            <div class="features-container">
+                <div class="feature">
+                    <div class="feature-number">3</div>
+                    <div class="feature-details">
+                        <span class="id-number">123349894587</span>
+                        <span class="name">Sufiyan Khan AkhlaqAli Khan</span>
+                        <span class="dob">12/09/2004</span>
+                        <span class="location">Madina Nager Ardhapur</span>
+                    </div>
+                    <button class="feature-btn">View All</button>
+                </div>
+                 
+                <!-- Add more rows as needed -->
+            </div>
+        </section>>
+
+
+        <section class="unique-features-section">
+          
+            <div class="features-container">
+                <div class="feature">
+                    <div class="feature-number">4</div>
+                    <div class="feature-details">
+                        <span class="id-number">123349894587</span>
+                        <span class="name">Sufiyan Khan AkhlaqAli Khan</span>
+                        <span class="dob">12/09/2004</span>
+                        <span class="location">Madina Nager Ardhapur</span>
+                    </div>
+                    <button class="feature-btn">View All</button>
+                </div>
+                 
+                <!-- Add more rows as needed -->
+            </div>
+        </section>>
+
+        <section class="unique-features-section">
+          
+            <div class="features-container">
+                <div class="feature">
+                    <div class="feature-number">5</div>
+                    <div class="feature-details">
+                        <span class="id-number">123349894587</span>
+                        <span class="name">Sufiyan Khan AkhlaqAli Khan</span>
+                        <span class="dob">12/09/2004</span>
+                        <span class="location">Madina Nager Ardhapur</span>
+                    </div>
+                    <button class="feature-btn">View All</button>
+                </div>
+                 
+                <!-- Add more rows as needed -->
+            </div>
+        </section>>
+
+        <section class="unique-features-section">
+          
+            <div class="features-container">
+                <div class="feature">
+                    <div class="feature-number">6</div>
+                    <div class="feature-details">
+                        <span class="id-number">123349894587</span>
+                        <span class="name">Sufiyan Khan AkhlaqAli Khan</span>
+                        <span class="dob">12/09/2004</span>
+                        <span class="location">Madina Nager Ardhapur</span>
+                    </div>
+                    <button class="feature-btn">View All</button>
+                </div>
+                 
+                <!-- Add more rows as needed -->
+            </div>
+        </section>>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <a href="#" class="footer-link">Home</a>
+                    <a href="#" class="footer-link">About Us</a>
+                    <a href="#" class="footer-link">Contact Us</a>
+                    <a href="#" class="footer-link">FAQs</a>
+                </div>
+                <div class="footer-column">
+                    <a href="#" class="footer-link">E-Pass Application</a>
+                    <a href="#" class="footer-link">Tracking System</a>
+                    <a href="#" class="footer-link">Document Upload</a>
+                    <a href="#" class="footer-link">E-Pass Validity</a>
+                </div>
+                <div class="footer-column">
+                    <a href="#" class="footer-link">Terms of Service</a>
+                    <a href="#" class="footer-link">Privacy Policy</a>
+                    <a href="#" class="footer-link">User Guide</a>
+                    <a href="#" class="footer-link">Support</a>
+                </div>
+            </div>
+            <div class="footer-social">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+            </div>
+            <p class="footer-note">© 2024 Government Bus E-Pass Generation. All rights reserved.</p>
+        </footer>
     </div>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
