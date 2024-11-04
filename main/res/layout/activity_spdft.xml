@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".music"
+        >
+        <LinearLayout
+            android:id="@+id/top_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="?attr/colorPrimary"
+            android:padding="5dp">
+            <ImageView
+                android:id="@+id/btn"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/img_9"
+                android:contentDescription="Profile Icon"
+                android:background="?attr/colorPrimary"
+                android:padding="1dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="90dp"
+                android:text="TWINTY ONE"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+
+
+
+        <!--Music Pannel-->
+        <LinearLayout
+            android:id="@+id/urdu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#E3F2FD"
+            android:padding="5dp"
+            android:layout_marginTop="100dp">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/img_11"
+                android:onClick="music"
+                android:background="#E3F2FD"
+                android:padding="1dp" />
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:text="دسویں جماعت کے لیے اردو کی کتاب۔"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#E3F2FD"
+            android:padding="5dp"
+            android:layout_marginTop="20dp">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/img_10"
+                android:contentDescription="Profile Icon"
+                android:background="#E3F2FD"
+                android:padding="1dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt2"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:text="دسویں جماعت کے لیے انگریزی کی کتاب
+"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#E3F2FD"
+            android:padding="5dp"
+            android:layout_marginTop="20dp">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/img_12"
+                android:contentDescription="Profile Icon"
+                android:background="#E3F2FD"
+                android:padding="1dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt3"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:text="دسویں جماعت کے لیے سائنس1کی کتاب
+"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#E3F2FD"
+            android:padding="5dp"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:contentDescription="Profile Icon"
+                android:padding="1dp"
+
+                android:src="@drawable/img_12" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt4"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:text="دسویں جماعت کے لیے سائنس2کی کتاب"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#E3F2FD"
+            android:padding="5dp"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="#E3F2FD"
+                android:contentDescription="Profile Icon"
+                android:padding="1dp"
+                android:src="@drawable/img_13" />
+
+            <TextView
+                android:id="@+id/txt5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:text="دسویں جماعت کے لیے ریاضی1 کی کتاب
+"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#E3F2FD"
+            android:padding="5dp"
+            android:layout_marginTop="20dp">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/img_13"
+                android:contentDescription="Profile Icon"
+                android:background="#E3F2FD"
+                android:padding="1dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt7"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:text="دسویں جماعت کے لیے ریاضی2 کی کتاب"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#E3F2FD"
+            android:padding="5dp"
+            android:layout_marginTop="20dp">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/img_14"
+                android:contentDescription="Profile Icon"
+                android:background="#E3F2FD"
+                android:padding="1dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt8"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:text="دسویں جماعت کے لیے مراٹھی کتاب
+"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#E3F2FD"
+            android:padding="5dp"
+            android:layout_marginTop="20dp">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/img_15"
+                android:contentDescription="Profile Icon"
+                android:background="#E3F2FD"
+                android:padding="1dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:text="دسویں جماعت کے لیے تاریخ کی کتاب
+"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#E3F2FD"
+            android:padding="5dp"
+            android:layout_marginTop="20dp">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/img_16"
+                android:contentDescription="Profile Icon"
+                android:background="#E3F2FD"
+                android:padding="1dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:text="دسویں جماعت کے لیے جگرافیہ کی کتاب
+"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
